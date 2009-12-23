@@ -1,0 +1,14 @@
+Isolation
+
+This was a project to build a HTTP Proxy server, that would prefetch data, on a given webpage while a user is online. This data would be stored, and then used to provide a seemless transition to offline browsing.
+
+The plan was to monitor the traffic though the proxy and establish a users favourite sites. These would be prefetched and cached.
+
+In the event that the user takes the machine offline the browser would be served pages from the cache creating a offline line experience without prior consideration
+
+Currently only the base HTTP server and client implementations exists. Work did carry on beyond this but was lost in a "life changing" data failure.
+
+
+Jonathan Dalrymple
+jonathan@float-right.co.uk
+
